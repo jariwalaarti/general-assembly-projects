@@ -1,3 +1,3 @@
-#General Assembly
+### General Assembly
 
-This folder contains all the projects I did for my 12 weeks DSI course.
+This folder contains all the projects I perceived during my 12 weeks Data Science Immersive course.
