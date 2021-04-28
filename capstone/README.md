@@ -26,9 +26,9 @@ The dataset has been adapted from [Kaggle](https://www.kaggle.com/c/jigsaw-unint
 
 |Type|Fields|Description|
 |---|---|---|
-|Feature|Comment Text|The text of the comments acquired from over the internet. This is the field that will be used for prediction.|
-|Target|Toxicity|The toxicity comtains the probability of a comment being toxic or not. If the value is >= 0.5 the comment is toxic else non toxic.|
-|Toxicity Subgroups|-Severe Toxic<br> -Obscene <br> -Identity Attack <br> -Insult <br> -Threat <br> |These are additional toxcity subtype attributes provided for analysis purpose only. We do not need to predict them. Theey are also provided in form of probabilities.|
+|Feature|Comment Text|The text of the comments acquired from over the internet. <br>This is the field that will be used for prediction.|
+|Target|Toxicity|The toxicity comtains the probability of a comment being toxic or not. <br>If the value is >= 0.5 the comment is toxic else non toxic.|
+|Toxicity Subgroups|-Severe Toxic<br> -Obscene <br> -Identity Attack <br> -Insult <br> -Threat <br> |These are additional toxcity subtype attributes provided for analysis purpose only. <br>We do not need to predict them. They are also provided in form of probabilities.|
 
 ## Process
 
@@ -46,7 +46,7 @@ The entire process of analysing and modelling has been carried out in 4 notebook
 
 **Conclusion:**
 
-We were able to build a model using **BERT** that can detect identity biased toxicity in the comments over the internet with test <br> **Accuracy : 95% **and **Recall : 64%**.
+We were able to build a model using **BERT** that can detect identity biased toxicity in the comments over the internet with test <br> **Accuracy : 95%** and **Recall : 64%**.
 
 **Recommendation:**
 
